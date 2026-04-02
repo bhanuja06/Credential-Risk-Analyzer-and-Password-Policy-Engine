@@ -30,15 +30,15 @@ Password: ********
 Strength: WEAK (Score: 32/100)
 ============================================================
 
-## POLICY VIOLATIONS:
+ POLICY VIOLATIONS:
   • At least 1 uppercase letter(s)
   • At least 1 special character(s)
 
-## WEAK POINTS:
+ WEAK POINTS:
   • No uppercase letters
   • Contains sequential pattern '123'
 
-## RECOMMENDATIONS:
+ RECOMMENDATIONS:
   • Add uppercase letters (A-Z)
   • Add special characters (!@#$%^&*)
   • Avoid sequential patterns like '123'
