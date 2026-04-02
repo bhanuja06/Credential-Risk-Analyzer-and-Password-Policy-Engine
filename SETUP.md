@@ -1,5 +1,5 @@
-```markdown
-# Setup Instructions
+
+## Setup Instructions
 
 ## 1. Make sure you have Python 3.7+
 ```bash
