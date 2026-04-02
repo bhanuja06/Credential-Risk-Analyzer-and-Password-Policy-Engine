@@ -1,6 +1,5 @@
 # Credential-Risk-Analyzer-and-Password-Policy-Engine
 
-# Credential Risk Analyzer & Password Policy Engine
 
 A simple, zero-dependency Python tool that evaluates password strength, checks policy violations, and tells you exactly how to improve weak passwords.
 
