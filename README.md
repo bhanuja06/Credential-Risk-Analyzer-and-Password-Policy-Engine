@@ -5,12 +5,12 @@ A simple, zero-dependency Python tool that evaluates password strength, checks p
 
 ## Features
 
-- ✅ Checks password against custom policy rules (length, uppercase, lowercase, digits, special chars)
-- 📊 Scores passwords from 0-100 (Very Weak → Very Strong)
-- 🔍 Identifies weak patterns (repeated chars, sequential patterns, common substitutions)
-- 💡 Provides actionable recommendations to fix weak passwords
-- 🚫 Detects common passwords and keyboard patterns
-- 📦 No external dependencies - just Python
+-  Checks password against custom policy rules (length, uppercase, lowercase, digits, special chars)
+-  Scores passwords from 0-100 (Very Weak → Very Strong)
+-  Identifies weak patterns (repeated chars, sequential patterns, common substitutions)
+-  Provides actionable recommendations to fix weak passwords
+-  Detects common passwords and keyboard patterns
+-  No external dependencies - just Python
 
 ## Quick Start
 
@@ -30,15 +30,15 @@ Password: ********
 Strength: WEAK (Score: 32/100)
 ============================================================
 
-❌ POLICY VIOLATIONS:
+## POLICY VIOLATIONS:
   • At least 1 uppercase letter(s)
   • At least 1 special character(s)
 
-⚠️ WEAK POINTS:
+## WEAK POINTS:
   • No uppercase letters
   • Contains sequential pattern '123'
 
-💡 RECOMMENDATIONS:
+## RECOMMENDATIONS:
   • Add uppercase letters (A-Z)
   • Add special characters (!@#$%^&*)
   • Avoid sequential patterns like '123'
@@ -73,22 +73,19 @@ print(f"Recommendations: {result['recommendations']}")
 
 ```
 credential-risk-analyzer/
-├── password_analyzer.py    # Main script
 ├── README.md               # This file
-└── SETUP.md                # Detailed setup instructions
+├── SETUP.md                # Detailed setup instructions
+└── password_analyzer.py    # Main Script
 ```
 
 ## Requirements
 
 - Python 3.7 or higher
 
-## License
-
-MIT
 
 ## Author
 
-Your Name
+S.BHANUJA
 
 ## Contributing
 
